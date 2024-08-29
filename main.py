@@ -4,7 +4,7 @@ def agecalculator():
     birth_year:int = int(input("Enter your Birth-Year = ")) 
     current_year:int = int(input("Enter your Current-Year = "))
     print("Your age is = ",(current_year-birth_year))
-    return age
+    return print
 output = agecalculator()
 print("your age is =", output , "year")
 
@@ -15,7 +15,7 @@ def areacalculator():
    lenght:int = int(input("Enter the lenght of a rectangle = "))
    width:int = int(input("Enter the width of a rectangle = "))
    print("The area of your rectangle is = lenght*width = ",lenght*width,"square unit")
-   return area
+   return print
 outputofarea = calculatearea()
 print("the area of calculator:", outputofarea,"metersquared")
 
