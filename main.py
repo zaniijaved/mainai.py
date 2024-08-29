@@ -1,15 +1,23 @@
 # Problem_no 1
 # calculate your age based on the current year and yoyr birth year
-birth_year:int = int(input("Enter your Birth-Year = "))
-current_year:int = int(input("Enter your Current-Year = "))
-print("Your age is = ",(current_year-birth_year))
+def agecalculator():
+    birth_year:int = int(input("Enter your Birth-Year = ")) 
+    current_year:int = int(input("Enter your Current-Year = "))
+    print("Your age is = ",(current_year-birth_year))
+    return age
+output = agecalculator()
+print("your age is =", output , "year")
 
 
 #problem_2
 #a program that calculate the area of a rectangle using lenght and width variables
-lenght:int = int(input("Enter the lenght of a rectangle = "))
-width:int = int(input("Enter the width of a rectangle = "))
-print("The area of your rectangle is = lenght*width = ",lenght*width,"square unit")
+def areacalculator():
+   lenght:int = int(input("Enter the lenght of a rectangle = "))
+   width:int = int(input("Enter the width of a rectangle = "))
+   print("The area of your rectangle is = lenght*width = ",lenght*width,"square unit")
+   return area
+outputofarea = calculatearea()
+print("the area of calculator:", outputofarea,"metersquared")
 
 #Problem_no 3
 #a program that calculate the area of a circle
@@ -17,6 +25,7 @@ print("Circle area calculator")
 radius:int = int(input("enter the radius of = "))
 pie_value:float =3.141592653589793238462643383279502884197
 print("the area of circle is = value of pie *square of radius = ", pie_value*radius**2,"square unit")
+
 
 #Problem_no4
 #a program that calculates the area of cube
